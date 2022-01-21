@@ -1,4 +1,4 @@
-#¡WELCOME TO JAVA!
+# ¡WELCOME TO JAVA!
 
 ##### This repo is a compilation of exercises thar I will do during my process to learn java.
 ## Resources
