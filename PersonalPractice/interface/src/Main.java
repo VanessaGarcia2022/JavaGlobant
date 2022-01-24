@@ -1,5 +1,3 @@
-package com.vanessadev.interfaces;
-
 public class Main {
     public static void main(String[] args) {
         EnglishLanguage english = new EnglishLanguage();
@@ -7,6 +5,7 @@ public class Main {
 
         english.sayHi();
         english.sayBye();
+        english.traducir();
         plJava.sayHi();
         plJava.sayBye();
     }

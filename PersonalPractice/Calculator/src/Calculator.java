@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class calculator {
+// public, private, protected default
+public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         float num1;
