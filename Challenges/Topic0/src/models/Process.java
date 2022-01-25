@@ -7,8 +7,8 @@ public abstract class Process {
 
     public static int count = 0;
     private int id;
-    private static String formatID;
-    private Formatter obj = new Formatter();
+    private String formatID;
+    private final Formatter obj = new Formatter();
     private int size;
 
     //Constructor

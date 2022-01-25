@@ -4,18 +4,15 @@ import models.Memory;
 import models.Process;
 import models.SystemProcess;
 
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.Locale;
 import java.util.Scanner;
 
-public class main {
-    public static void main(String[] args) throws MemoryOverflowException {
+public class Main {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         final Memory memory = new Memory();
         String input, method, typeProcess;
-        Process process = null;
+        Process process;
 
 
         // Welcome
@@ -23,33 +20,50 @@ public class main {
         do {
             System.out.print("$: ");
             input = String.valueOf(sc.next()).toLowerCase();
+            if (input.length()<2){
+                System.out.println("Enter a valid option: ca, cs, d+(id), q");
+                continue;
+            }
             method = String.valueOf(input.charAt(0));
 
             if (method.equals("c")){
                 System.out.print("Create: ");
                 typeProcess = String.valueOf(input.charAt(1));
-                switch (typeProcess){
-                    case "s":
+                switch (typeProcess) {
+                    case "s" -> {
                         System.out.println("System process");
                         //create SystemProcess instance
                         process = createSystem();
                         // add instance to memory
-                        memory.addProcess(process);
-                        break;
-                    case "a":
+                        try {
+                            memory.addProcess(process);
+                        } catch (MemoryOverflowException e) {
+                            System.err.println(e);
+                        }
+                    }
+                    case "a" -> {
                         System.out.println("Aplication process");
                         // crear applicationProcess instance
                         process = createApplication();
                         // add instance to memory
-                        memory.addProcess(process);
-                        break;
-                    default:
-                        System.out.println("Enter a valid option: ca, cs, d+(id), q");
-                        break;
+                        try {
+                            memory.addProcess(process);
+                        } catch (MemoryOverflowException e) {
+                            System.err.println(e);
+                        }
+                    }
+                    default -> System.out.println("Enter a valid option: ca, cs, d+(id), q");
                 }
             }else if (method.equals("d")){
-                System.out.println("Delete");
-                // delete process
+                int idDelete;
+                // cast string id to integer
+                if(input.length() >= 2) {
+                    idDelete = Integer.parseInt(input.replace("d", " ").trim());
+                    // delete process
+                    memory.deleteProcess(idDelete);
+                }else{
+                    System.out.println("Please, add the ID of process to delete");
+                }
             }
 
         }
@@ -80,7 +94,9 @@ public class main {
         try
         {
             Thread.sleep(1000);
-        }catch(InterruptedException e){}
+        }catch(InterruptedException e){
+            System.out.println("Error delay");
+        }
     }
     private static Process createSystem() {
         return new SystemProcess();
