@@ -11,8 +11,12 @@
 ### _Videos and Resources_
 
 ## [Personal Projects:](https://github.com/VanessaGarcia2022/JavaGlobant/tree/main/PersonalPractice)
+
+#### Basic Java and OOP:
 - [COF Academy on YOUTUBE](https://www.youtube.com/playlist?list=PLf5ldD20p3mHRM3O4yUongNYx6UaELABm)
 
+#### Design Patterns:
+- [Curso de Patrones de diseño - MitoCode ](https://www.youtube.com/watch?v=cwfuydUHZ7o&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL)
 
 ## [Week 0: Introduction to Java and OOP](https://github.com/VanessaGarcia2022/JavaGlobant/tree/main/Week1/src)
 - [Java Garbage Collection Basics](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html#t1s1)
