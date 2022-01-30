@@ -1,0 +1,8 @@
+# Singleton
+
+Sirve para crear una sola instancias de un objeto en todo el programa.
+
+- el constructor debe ser privado para obligar a que la instancia se cree o se obtenga por
+el metodo getInstance
+
+(para el proyecto del topic 0, la instancia memory deberia ser un singleton)

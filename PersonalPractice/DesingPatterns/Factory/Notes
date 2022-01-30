@@ -1,0 +1,23 @@
+# Factory
+
+Su objetivo es devolver instancias de una clase en particular, por medio de un identificador.
+
+- No se va a instanciar directamente el objeto, se hace a traves de la fabrica
+
+- Se crea una interfaz donde esten los metodos basicos para crear todas las implementaciones necesarias
+
+- Se crean las clases que van a implementar la interfaz
+
+- la fabrica lo que hace es devolver una instancia de cualquier clase que este implementando la interfaz.(Como cuando
+herede de Process y podia guardar tanto los objetos de system como acpliation en un objeto de tipo processs)
+        -IConexion:
+            --ConnexionSQLServer
+            --ConnexionMySQL
+            --ConnexionOracle
+            --ConnexionPostgreSQL
+            --ConnexcionVarcia
+
+Cualquiera de los objetos de estas clases se puede guardar en un objeto tipo IConnexion.
+La fabrica recibe el identificador del objeto para poder retornar el tipo de objeto correcto.
+
+- En el main, se debe instanciar un objeto tipo fabrica para a traves de este instanciar el objeto que necesito.

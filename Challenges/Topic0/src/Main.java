@@ -54,6 +54,7 @@ public class Main {
                         } catch (MemoryOverflowException e) { // no memory space
                             System.out.println(e);
                         }
+                        break;
                     }
                     case "a" -> {
                         System.out.println("Aplication process");
@@ -65,6 +66,11 @@ public class Main {
                         } catch (MemoryOverflowException e) { //no memory space
                             System.out.println(e);
                         }
+                        break;
+                    }
+                    default -> {
+                        System.out.println("hola");
+                        break;
                     }
                 }
             }else if (method.equals("d")){
