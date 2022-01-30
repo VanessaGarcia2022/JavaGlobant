@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d26b8aaa-ba3a-48bc-ab5d-7d6c6fee81c4" name="Changes" comment="Proyects of Week0: Java Basic">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week0.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/decisionAndLoop/ComputePI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/decisionAndLoop/CozaLozaWoza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/decisionAndLoop/ExtractDigits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/decisionAndLoop/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/decisionAndLoop/HarmonicSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/decisionAndLoop/Tribonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/CheckOddEven.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/CheckPassFail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/ConcatenateItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/CylinderComputation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/FiveIntegerProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/PrintCheckerPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/PrintDayInWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/PrintLeapYears.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/PrintNumberInWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/PrintSheepPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/PrintSquarePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/PrintStarPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/ProductAndSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/RunningNumberOddSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/RunningNumberSum1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/SevenIntegerSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/SixIntegerSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/SumProduct3Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/gettingStarted/ThreeFiveSevenSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/inputDecisionLoop/Add2Integers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/inputDecisionLoop/CircleComputation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/inputDecisionLoop/CylinderComputation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/inputDecisionLoop/IncomeTaxCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/inputDecisionLoop/SphereComputation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/inputDecisionLoop/SumProductMinMax3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/inputDecisionLoop/SumProductMinMax5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/inputDecisionLoop/Swap2Integers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/practice/ArithmeticTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/practice/CircleComputation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/practice/Classname.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/practice/FiveIntegerSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/practice/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/practice/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/practice/OddEvenSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/practice/RunningNumberSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decisionAndLoop/ComputePI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decisionAndLoop/CozaLozaWoza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decisionAndLoop/ExtractDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decisionAndLoop/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decisionAndLoop/HarmonicSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decisionAndLoop/Tribonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/CheckOddEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/CheckPassFail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/ConcatenateItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/CylinderComputation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/FiveIntegerProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/PrintCheckerPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/PrintDayInWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/PrintLeapYears.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/PrintNumberInWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/PrintSheepPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/PrintSquarePattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/PrintStarPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/ProductAndSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/RunningNumberOddSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/RunningNumberSum1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/SevenIntegerSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/SixIntegerSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/SumProduct3Numbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gettingStarted/ThreeFiveSevenSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputDecisionLoop/Add2Integers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputDecisionLoop/CircleComputation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputDecisionLoop/CylinderComputation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputDecisionLoop/IncomeTaxCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputDecisionLoop/SphereComputation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputDecisionLoop/SumProductMinMax3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputDecisionLoop/SumProductMinMax5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputDecisionLoop/Swap2Integers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/ArithmeticTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/CircleComputation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/Classname.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/FiveIntegerSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/FiveIntegerSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/OddEvenSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/RunningNumberSum.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23zRHbulZObjTUTvTEWg1BxGljY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../README.md" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vanessa.garcia\JavaGlobant\Week1\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vanessa.garcia\JavaGlobant\Week1\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CircleComputation">
+    <configuration name="CircleComputation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inputDecisionLoop.CircleComputation" />
+      <module name="Week0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inputDecisionLoop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintSheepPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gettingStarted.PrintSheepPattern" />
+      <module name="Week0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gettingStarted.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CircleComputation" />
+        <item itemvalue="Application.PrintSheepPattern" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d26b8aaa-ba3a-48bc-ab5d-7d6c6fee81c4" name="Changes" comment="" />
+      <created>1642734842458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642734842458</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Proyects of Week1: Java Basic">
+      <created>1642735020233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642735020233</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Proyects of Week1: Java Basic">
+      <created>1642735520372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642735520372</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Proyects of Week1: Java Basic">
+      <created>1642735610507</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642735610507</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Proyects of Week1: Java Basic">
+      <created>1642735646032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642735646032</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Proyects of Week1: Java Basic">
+      <created>1642735713459</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642735713459</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Proyects of Week1: Java Basic">
+      <created>1642735746257</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642735746257</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Proyects of Week1: Java Basic">
+      <created>1642735799950</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642735799950</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Proyects of Week0: Java Basic">
+      <created>1643583404389</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643583404389</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Proyects of Week1: Java Basic" />
+    <MESSAGE value="Proyects of Week0: Java Basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyects of Week0: Java Basic" />
+  </component>
+</project>
