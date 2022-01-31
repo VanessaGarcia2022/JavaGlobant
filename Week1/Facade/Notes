@@ -1,0 +1,10 @@
+# Facade (fachada)
+
+es un patron de diseno estructural
+
+- lo que busca es ocultar la complejidad del programa y solo exponer los puntos o los datos que son importantes
+para el usuario.
+
+- ejemplos de uso: Cuando se buscan vuelos y/o hoteles: El cliente solo interactua con la fachada que le pide
+los datos basicos para realizaar la busqueda, elclietne no se entera de toda la complejidad del programa para traer
+los resultados.
