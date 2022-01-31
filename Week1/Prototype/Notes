@@ -1,0 +1,6 @@
+# Prototype
+
+- Basicamente clona un objeto. (Crea un nuevo objeto basado en los valores que tiene el objeto original)
+
+- se usa cuando quiero crear un nuevo objeto con unos valores ya establecidos(en otro objeto)
+y no quiero hacer la asignacion manual.
