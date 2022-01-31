@@ -1,9 +1,11 @@
-import interfaz.IConnexion;
-import interfaz.implementaciones.*;
+import interfaz.AbstractFactory;
+import interfaz.IConnexionBD;
+import interfaz.IConnexionREST;
+import interfaz.implementacion.*;
 
-public class ConnexionFabrica {
-    public IConnexion getConexion(String motor){
-
+public class ConnexionBDFabrica implements AbstractFactory {
+    @Override
+    public IConnexionBD getBD(String motor) {
         if(motor.equalsIgnoreCase("MYSQL")){
             return new ConnexionMySQL();
         }else if(motor.equalsIgnoreCase("ORACLE"))
@@ -17,5 +19,10 @@ public class ConnexionFabrica {
             return new ConnexionSQLServer();
         }
         return new ConnexionVacia();
+    }
+
+    @Override
+    public IConnexionREST getREST(String area) {
+        return null;
     }
 }

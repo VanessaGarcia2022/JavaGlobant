@@ -1,8 +1,8 @@
-package interfaz.implementaciones;
+package interfaz.implementacion;
 
-import interfaz.IConnexion;
+import interfaz.IConnexionBD;
 
-public class ConnexionMySQL implements IConnexion {
+public class ConnexionMySQL implements IConnexionBD {
 
     private String host;
     private String puerto;
@@ -29,4 +29,3 @@ public class ConnexionMySQL implements IConnexion {
         System.out.println("Se desconecto de MySql");
     }
 }
-

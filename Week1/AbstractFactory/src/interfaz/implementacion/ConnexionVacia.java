@@ -1,8 +1,8 @@
-package interfaz.implementaciones;
+package interfaz.implementacion;
 
-import interfaz.IConnexion;
+import interfaz.IConnexionBD;
 
-public class ConnexionVacia implements IConnexion {
+public class ConnexionVacia implements IConnexionBD {
     @Override
     public void conectar() {
         System.out.println("NO se especifico proveedor");

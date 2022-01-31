@@ -1,8 +1,8 @@
-package interfaz.implementaciones;
+package interfaz.implementacion;
 
-import interfaz.IConnexion;
+import interfaz.IConnexionBD;
 
-public class ConnexionPostgreSQL implements IConnexion {
+public class ConnexionPostgreSQL implements IConnexionBD {
 
     private String host;
     private String puerto;

@@ -1,0 +1,15 @@
+# Abstract Factory
+
+Es una fabrica de fabricas (Una super fabrica)
+
+- en este patron, primero de le debe decir que fabria va a producir este objeto y luego se puede obtener
+la instancia del objeto que se necesita.
+
+- Se deben tener varias fabricas para crear objetos de distintas "Familias" (En el ejemplo ya tenemos la fabrica
+de la familia "Connexion", y vamos a crear otra fabrica de la familia "Servicios rest")
+
+- la fabrica abstracta va a ser una interfaz que nos permite escoger cual de las dos fabricas vamos a usar.
+
+// este ejemplo esta mal implementado por que no cumple el principio SOLID y la interfaz abstracFactory
+tiene dos responsabilidades
+

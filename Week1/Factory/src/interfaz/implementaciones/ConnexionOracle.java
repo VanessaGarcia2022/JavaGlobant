@@ -1,8 +1,8 @@
 package interfaz.implementaciones;
 
-import interfaz.IConexion;
+import interfaz.IConnexion;
 
-public class ConnexionOracle implements IConexion {
+public class ConnexionOracle implements IConnexion {
 
     private String host;
     private String puerto;
@@ -25,7 +25,7 @@ public class ConnexionOracle implements IConexion {
     }
 
     @Override
-    public void desconetar() {
+    public void desconectar() {
         System.out.println("Se desconecto de Oracle");
     }
 }

@@ -1,8 +1,8 @@
 package interfaz.implementaciones;
 
-import interfaz.IConexion;
+import interfaz.IConnexion;
 
-public class ConnexionSQLServer implements IConexion {
+public class ConnexionSQLServer implements IConnexion {
 
     private String host;
     private String puerto;
@@ -24,7 +24,7 @@ public class ConnexionSQLServer implements IConexion {
     }
 
     @Override
-    public void desconetar() {
+    public void desconectar() {
         System.out.println("Se desconecto de sqlserver");
     }
 }
