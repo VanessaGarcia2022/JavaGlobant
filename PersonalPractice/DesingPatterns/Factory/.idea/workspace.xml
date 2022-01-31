@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="801538e9-ce59-46f5-8076-d4ec1164efcf" name="Changes" comment="Updated readme">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/AbstractFactory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/ConnexionBDFabrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/ConnexionRESTFabrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/FabricaProductor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/interfaz/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/interfaz/IConnexionBD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/interfaz/IConnexionREST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/interfaz/implementacion/ConnexionMySQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/interfaz/implementacion/ConnexionOracle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/interfaz/implementacion/ConnexionPostgreSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/interfaz/implementacion/ConnexionRESTCompras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/interfaz/implementacion/ConnexionRESTNoArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/interfaz/implementacion/ConnexionRESTVentas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/interfaz/implementacion/ConnexionSQLServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week1/AbstractFactory/src/interfaz/implementacion/ConnexionVacia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Week1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Week1/Factory/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week1/Factory/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Week1/Factory/src/ConnexionFabrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week1/Factory/src/ConnexionFabrica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Week1/Factory/src/interfaz/IConexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week1/Factory/src/interfaz/IConnexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Week1/Factory/src/interfaz/implementaciones/ConnexionMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week1/Factory/src/interfaz/implementaciones/ConnexionMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Week1/Factory/src/interfaz/implementaciones/ConnexionOracle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week1/Factory/src/interfaz/implementaciones/ConnexionOracle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Week1/Factory/src/interfaz/implementaciones/ConnexionPostgreSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week1/Factory/src/interfaz/implementaciones/ConnexionPostgreSQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Week1/Factory/src/interfaz/implementaciones/ConnexionSQLServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week1/Factory/src/interfaz/implementaciones/ConnexionSQLServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Week1/Factory/src/interfaz/implementaciones/ConnexionVacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week1/Factory/src/interfaz/implementaciones/ConnexionVacia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
