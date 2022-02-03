@@ -36,17 +36,17 @@
 
 ## [Week 2:  JAVA Spring](https://github.com/VanessaGarcia2022/JavaGlobant/tree/main/Week2)
 ### Reading:
-[What is Maven?](https://maven.apache.org/what-is-maven.htm)
-[Have fun with Maven in 5 minutes.](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
-[Maven: best practices](https://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-pom-best-practice.html)
-[Log4j: What it is?](https://www.java4s.com/log4j-tutorials/)
-[Spring Boot Introduction](https://www.baeldung.com/spring-boot-start)
+- [What is Maven?](https://maven.apache.org/what-is-maven.htm)
+- [Have fun with Maven in 5 minutes.](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+- [Maven: best practices](https://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-pom-best-practice.html)
+- [Log4j: What it is?](https://www.java4s.com/log4j-tutorials/)
+- [Spring Boot Introduction](https://www.baeldung.com/spring-boot-start)
 
 ### Topic Practice:
 Complete following sections of the Udemy course (10hs 43min):
 
-[Dependency Injection with Spring](https://globant.udemy.com/course/spring-framework-5-beginner-to-guru/)
-[Building a Spring Boot Jokes App](https://globant.udemy.com/course/spring-framework-5-beginner-to-guru/)
-[Spring Framework Configuration](https://globant.udemy.com/course/spring-framework-5-beginner-to-guru/)
-[External Properties with Spring Framework](https://globant.udemy.com/course/spring-framework-5-beginner-to-guru/)
-[Web Development with Spring MVC](https://globant.udemy.com/course/spring-framework-5-beginner-to-guru/)
+- [Dependency Injection with Spring](https://globant.udemy.com/course/spring-framework-5-beginner-to-guru/)
+- [Building a Spring Boot Jokes App](https://globant.udemy.com/course/spring-framework-5-beginner-to-guru/)
+- [Spring Framework Configuration](https://globant.udemy.com/course/spring-framework-5-beginner-to-guru/)
+- [External Properties with Spring Framework](https://globant.udemy.com/course/spring-framework-5-beginner-to-guru/)
+- [Web Development with Spring MVC](https://globant.udemy.com/course/spring-framework-5-beginner-to-guru/)
