@@ -1,0 +1,9 @@
+@Bean
+//depenendencia: anyNameMethod
+public MyBean anyNameMethod(){
+    //Inicializamos una instancia
+    return new MyBeanImpl(); // esto retorna una interface de tipo "MyBean"
+}
+
+la interface que retorna MyBean es la que se va a inyectar como dependencia
+en otras partes del programa

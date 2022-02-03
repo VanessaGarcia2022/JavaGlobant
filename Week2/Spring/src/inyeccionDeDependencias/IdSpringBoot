@@ -1,0 +1,22 @@
+@Bean
+public MyBean myBean(){
+    // el bean es inicializado y se retorna la interfaz
+    return new MybeanImpl();
+}
+
+Public class ClaseNecesitoDependencia {
+    //declara una instancia de la interfaz, pero no se inicializa
+    private final MyBean dependencia;
+
+    @Autowired
+    // Constructor que inicializa la dependencia
+    // de esta manera se inyecta la dependencia
+    public ClassNecesitoDependencia(MyBean dependencia){
+        this.dependencia = dependencia;
+    }
+    // mas abajo se pueden utilizar las implementaciones de esa dependencia
+    // osea las funcionalizades que hemos programado en los diferentes
+    // objetos que implementan la interfaz (MyBean)
+
+
+}

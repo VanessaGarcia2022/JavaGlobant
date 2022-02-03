@@ -1,0 +1,14 @@
+# Inyeccion de dependencias.
+
+Es el patron que utiliza inversion de control para utilizar esas dependencias
+que se han inicializado con el contenedor de Spring.
+
+### Beneficios
+Codigo limplio, modularizado, mejor divivido, varias capas, desacoplamiento
+mas efectivo.
+Por que cada objeto cuenta con su implementacion y con sus propias dependencias
+
+Este patron facilita probar las clases, por que todas esas pequeñas dependencias
+se pueden utilizar como mock en jUnit para probar su funcionalidad.
+
+

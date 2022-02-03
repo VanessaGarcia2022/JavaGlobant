@@ -1,0 +1,63 @@
+# Dependencias
+
+Son objetos definidos como una funcionalidad.
+
+Sin esta funcionalidad los otros objetos no podran trabajar,
+**Dependen de ellas**
+
+
+Ejemplo: Aplicacion carro.
+
+Un carro tiene muchas caracteristicas para cumplir con el objetivo
+que es: *Moverse*
+
+Esas caracteristicas (dependencias) pueden ser:
+Puerta, capo, parachoque, techo, rueda, ventana, motor, etc.
+
+Hay caracteristicas o dependencias que tienen mayor impacto en una
+aplicacion, por ejemplo en "carro" las llantas tienen mayor impacto
+que una puerta, aun asi las dependencias interactuan entre si para
+cumplir el objetivo.
+
+Al modularizar el programa tenemos una ventaja al hacer pruebas
+unitarias, ya que se pueden probar las dependencias de forma independiente,
+ademas se cumplimos en el principio de SOLID, ya que cada dependencia tiene
+una unica responsabilidad, Ademas esto hace que el sisetma o la
+aplicacion tengan una alta cohecion.
+
+# Inversion de control
+
+Principio que transfiere el control* de objetos de un programa a un
+contenedor o Framework. (*El control del flujo del programa).
+
+Esto hace que el flujo del programa sea diferente al flujo tradicional
+(que lee el programa linea a linea, de arriba hacia abajo.)
+
+cuando invertimos el control, lo que se hace es darle el control del flujo
+del programa a un contenedor o a un Framework.
+
+En el caso de una App, el contenedor es el usuario que iteractua con ella
+ya que es el usuario el que da las indicaciones de que parte del codigo
+ejecutar al dar click en un boton, o interactuar con el formulario, etc
+
+### Ventajas del IoC
+- Desacoplamiento cuando los objetos cuentan con sus dependencias.
+- Se oculta la implementacion de las dependencias, esto trae el beneficio
+de la segregacion de interfaces.
+-Facilita el testing por componentes o mocks de independencias.
+- Mayor modularidad de un programa.
+
+## Ioc en el contexto de Spring Boot
+
+- Los objetos que son administrados por el contenedor Spring IoC se
+denominan *BEANS*
+- un bean es un objeto que es instanciado, ensamblado y administrado por
+un contenedor Spring IoC.
+
+Spring Boot es un proyecto de Spring. por lo tanto, Spring hace la tarea
+de instanciar, ensamblar y administrar en un nivel ma abstracto
+
+
+
+
+
