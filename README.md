@@ -6,7 +6,7 @@
 
 ## [Challenges](https://github.com/VanessaGarcia2022/JavaGlobant/tree/main/Challenges)
 - [Topic 0](https://github.com/VanessaGarcia2022/JavaGlobant/tree/main/Challenges/Topic0)
-- [Topic 1](https://github.com/VanessaGarcia2022/JavaGlobant/tree/main/Challenges/Topic1/src)
+- [Topic 1](https://github.com/VanessaGarcia2022/JavaGlobant/tree/main/Challenges/Topic1)
 
 ### _Videos and Resources_
 
