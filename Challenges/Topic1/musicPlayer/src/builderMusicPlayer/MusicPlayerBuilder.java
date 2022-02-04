@@ -30,4 +30,12 @@ public class MusicPlayerBuilder implements Builder {
     public MusicPlayer getResult() {
         return new MusicPlayer(color, memory, battery);
     }
+
+    @Override
+    public String toString() {
+        return "Your music player was created successfully with the following specifications:\n" +
+                "color: " + color +
+                ", memory: " + memory +
+                ", battery: " + battery;
+    }
 }

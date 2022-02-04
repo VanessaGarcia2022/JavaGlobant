@@ -7,7 +7,7 @@ public class MusicPlayer {
 
     private final Color color;
     private final int memory;
-    private final int battery;
+    private final int  battery;
 
     public Color getColor() {
         return color;
@@ -17,7 +17,7 @@ public class MusicPlayer {
         return memory;
     }
 
-    public int getBattery() {
+    public int  getBattery() {
         return battery;
     }
 
