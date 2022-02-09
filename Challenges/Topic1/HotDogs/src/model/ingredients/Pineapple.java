@@ -15,6 +15,6 @@ public class Pineapple extends HotDogDecorator {
         //obtenemos la infomarcion del objeto actual
         this.getHotDog().showIngredient();
         // agregamos el ingrediente.
-        System.out.println("Pineapple");
+        System.out.print(", Pineapple");
     }
 }

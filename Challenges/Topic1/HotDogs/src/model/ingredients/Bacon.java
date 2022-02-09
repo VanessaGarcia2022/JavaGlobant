@@ -14,6 +14,6 @@ public class Bacon extends HotDogDecorator {
     public void showIngredient() {
         // muestra los ingredientes que ya tiene y le agrega "bacon"
         this.getHotDog().showIngredient();
-        System.out.println("Bacon");
+        System.out.print(", Bacon");
     }
 }

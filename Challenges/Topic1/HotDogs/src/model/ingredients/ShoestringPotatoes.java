@@ -14,6 +14,6 @@ public class ShoestringPotatoes extends HotDogDecorator {
         //obtener la informacion del objeto a decorar
         this.getHotDog().showIngredient();
         // agregar el ripio de papa
-        System.out.println("Shoestring Potatoes");
+        System.out.print(", Shoestring Potatoes");
     }
 }
