@@ -2,7 +2,10 @@ package model.ingredients;
 
 import Interf.IHotDog;
 import model.HotDogDecorator;
-// clase que hereda el decorador
+
+/**
+ * ShoestringPotatoes: classes that implement the abstract class that serve to decorate the original object
+ */
 public class ShoestringPotatoes extends HotDogDecorator {
     // recibe una instancia de la interface
     public ShoestringPotatoes(IHotDog hotDog){

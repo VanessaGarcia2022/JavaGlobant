@@ -7,9 +7,17 @@ import model.ingredients.Pineapple;
 import model.ingredients.Sauces;
 import model.ingredients.ShoestringPotatoes;
 
+/**
+ * Class to show the main menu
+ * have two methods:
+ * menu: shows the main menu.
+ * ShowMenuIngredients: show the ingredients available to add to the hot dog
+ */
 public class Menu {
+    /**
+     * method menu: shows the main menu.
+     */
     public static void menu(){
-
         int op;
         System.out.println("\t\t\t\t\n\n******* Welcome to Doggolicious *******\n\n");
 
@@ -20,28 +28,28 @@ public class Menu {
             System.out.println("3 - Finish");
             op = App.op.nextInt();
 
-            switch (op){
-                case 1:
-                    showMenuIngredients();
-                    break;
-                case 2:
+            switch (op) {
+                case 1 -> showMenuIngredients();
+                case 2 -> {
                     System.out.println("These are the current ingredients of your hot dog:");
                     App.hotDog.showIngredient();
                     System.out.println("\n***************************************************\n");
-                    break;
-                case 3:
-                    System.out.println("\n" +"Your hot dog has been successfully created with the following ingredients: ");
+                }
+                case 3 -> {
+                    System.out.println("\n" + "Your hot dog has been successfully created with the following ingredients: ");
                     App.hotDog.showIngredient();
                     System.out.println("\n\nIt was a pleasure serving you, see you later");
-
                     return;
-                default:
-                    System.out.println("Please choose an option");
+                }
+                default -> System.out.println("Please choose an option");
             }
         }while(true);
     }
+    /**
+     * method showMenuIngredients: show the ingredients available to add to the hot dog.
+     */
     public static void showMenuIngredients(){
-        int op = 0;
+        int op;
         System.out.println("Choose your addition:");
         System.out.println("1 - Sauces");
         System.out.println("2 - Bacon");

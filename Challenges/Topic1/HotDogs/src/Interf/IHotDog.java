@@ -1,5 +1,8 @@
 package Interf;
 
+/**
+ * Interface IHotDog: implements the common methods
+ */
 public interface IHotDog {
-    public void showIngredient();
+    void showIngredient();
 }

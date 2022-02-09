@@ -10,11 +10,15 @@ import model.ingredients.ShoestringPotatoes;
 
 import java.util.Scanner;
 
+/**
+ * Entry point
+ */
+
 public class App {
     // Option of menu
     public static Scanner op = new Scanner(System.in);
 
-    //HotDog must be global.
+    //Instance HotDog must be global.
     public static IHotDog hotDog= new BasicHotDog();
 
     public static void main(String[] args) {
