@@ -1,6 +1,5 @@
 package com;
 
-import com.interfaces.Subject;
 import com.models.*;
 
 public class App {
@@ -19,39 +18,32 @@ public class App {
         Subscriber federico = new Subscriber("Federico");
 
         // subscriptions of Ana
-        ana.subscribe(tablet);
         tablet.attach(ana);
-
-        ana.subscribe(microphone);
         microphone.attach(ana);
 
         // subscriptions of Angelica
-        angelica.subscribe(mechanicalKeyboard);
         mechanicalKeyboard.attach(angelica);
-
-//        angelica.subscribe(microphone);
-//        microphone.attach(angelica);
+        tablet.attach(angelica);
 
         // subscriptions of Juan Jose
-//        juanJose.subscribe(mechanicalKeyboard);
-//        mechanicalKeyboard.attach(juanJose);
+        mechanicalKeyboard.attach(juanJose);
 
         // subscriptions of Carolina
-        carolina.subscribe(tablet);
         tablet.attach(carolina);
-
-//        carolina.subscribe(microphone);
-//        microphone.attach(carolina);
-
-//        carolina.subscribe(mechanicalKeyboard);
-//        mechanicalKeyboard.attach(carolina);
+        microphone.attach(carolina);
+        mechanicalKeyboard.attach(carolina);
 
         // subscriptions of federico
-        federico.subscribe(tablet);
         tablet.attach(federico);
 
         tablet.setPrice(70.5);
 
+        tablet.detach(carolina);
+        System.out.println("-------------------------");
+        tablet.setPrice(105.6);
+
+        System.out.println("-------------------------");
+        microphone.setPrice(89.47);
 
 
 
