@@ -5,8 +5,14 @@
 ### _Files_
 
 ## [Challenges](https://github.com/VanessaGarcia2022/JavaGlobant/tree/main/Challenges)
-- [Topic 0](https://github.com/VanessaGarcia2022/JavaGlobant/tree/main/Challenges/Topic0)
-- [Topic 1](https://github.com/VanessaGarcia2022/JavaGlobant/tree/main/Challenges/Topic1)
+- [Topic 0 - OOP](https://github.com/VanessaGarcia2022/JavaGlobant/tree/main/Challenges/Topic0)
+- [Topic 1 - Design Patterns](https://github.com/VanessaGarcia2022/JavaGlobant/tree/main/Challenges/Topic1)
+- [Topic 2 - Spring (Not yet completed)]()
+- [Topic 3 - Functional Programming (Not yet completed)]()
+- [Topic 4 - Docker (Not yet completed)]()
+- [Topic 5 - Data Base interaction and ORMs (Not yet completed)]()
+- [Topic 6 - UnitTesting (Not yet completed)]()
+
 
 ### _Videos and Resources_
 
