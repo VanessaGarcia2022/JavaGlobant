@@ -1,15 +1,18 @@
 package duda.persona;
 
-public class Student extends Person{
+public class Y extends X {
     private String colegio;
 
-    public Student(){
+    public Y(){
     }
-    public Student(String name, String colegio) {
+    public Y(String name, String colegio) {
         super(name);
         this.colegio = colegio;
     }
 
+    public void doY() {
+        System.out.println("estoy en do Y");
+    }
     public String getColegio() {
         return colegio;
     }

@@ -1,15 +1,13 @@
-import duda.persona.Person;
-import duda.persona.Student;
-
-import java.security.Permission;
+import duda.persona.X;
+import duda.persona.Y;
 
 public class Main {
     public static void main(String[] args) {
-        Person person = new Student();
-        person.setName("Globant");
-        System.out.println(person.getName());
+        X x1 = new X();
+        X x2 = new Y();
+        Y y1 = new Y();
 
-        //Student student = new Person();
+        ((Y)x2).doY();
 
     }
 }

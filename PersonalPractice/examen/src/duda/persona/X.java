@@ -1,13 +1,17 @@
 package duda.persona;
 
-public class Person {
+public class X {
     private String name;
 
-    public Person(){
+    public X(){
     }
 
-    Person(String name){
+    X(String name){
         this.name = name;
+    }
+
+    public void doX() {
+        System.out.println("estoy en do X");
     }
 
     public String getName() {
