@@ -47,3 +47,88 @@
 - [Log4j: What it is?](https://www.java4s.com/log4j-tutorials/)
 - [Spring Boot Introduction](https://www.baeldung.com/spring-boot-start)
 - [***Topic Practice: Udemy***](https://globant.udemy.com/course/spring-framework-5-beginner-to-guru/)
+
+## [Week 3: Functional Programming]()
+#### Activity 1: Functional programming concepts
+- [Concepts, Advantages, Disadvantages, and Applications](https://hackr.io/blog/functional-programming)
+- [Function programming vs. OOP](https://www.imaginarycloud.com/blog/functional-programming-vs-oop/)
+
+#### Activity 2: Functional programming in Java
+- [Java and Functional programming](https://www.baeldung.com/java-functional-programming)
+- [Java functional interfaces](http://tutorials.jenkov.com/java-functional-programming/functional-interfaces.html)
+- [Functional programming in Java: Lists, lambdas, and method references](https://blogs.oracle.com/javamagazine/post/functional-programming-in-java-part-1-lists-lambdas-and-method-references)
+- [Java streams](https://www.baeldung.com/java-8-streams)
+
+ #### Practice:
+-[Read and practice some exercises listed here.](https://blog.devgenius.io/15-practical-exercises-help-you-master-java-stream-api-3f9c86b1cf82)
+
+## [Week 4: Docker]()
+
+- [Introduction to Docker](https://www.freecodecamp.org/news/docker-simplified-96639a35ff36/)
+- [Docker 101 video](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
+- [Working with Containers and Images](https://phoenixnap.com/kb/docker-image-vs-container)
+- [Hello Word with Docker](https://examples.javacodegeeks.com/devops/docker/docker-hello-world-example/)
+- [run sql server with Docker](https://www.youtube.com/watch?v=TUWItrX7hmA)
+
+## [Week 5: Database Interaction and ORMs]()
+#### Activity 1: Introduction
+- [Introduction to JPA Architecture](https://dzone.com/articles/introduction-to-jpa-architecture)
+- [Introduction to Spring Data JPA](https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa)
+
+#### Activity 2: Implementation
+- [Learn JPA & Hibernate](https://www.baeldung.com/learn-jpa-hibernate)
+- [Java Persistence API (JPA)](https://www.oscarblancarteblog.com/tutoriales/java-persistence-api-jpa/)
+
+#### Activity 3: Guide (Optional)
+-[Spring Data Support - youtube](https://www.youtube.com/playlist?list=PL1A506B159E5BD13E)
+
+#### Practice:
+- Pick any DBMS and create a database model there
+- Create a project where you map the model created in point 1
+- Create repositories to Insert Update and Delete records over that DBMS
+- Commit the project in your personal GitHub
+
+
+## [Week 6: Unit Testing with JUnit and Mockito]()
+
+- [Benefits of Unit Testing](https://dzone.com/articles/top-8-benefits-of-unit-testing)
+- [JUnit](https://junit.org/junit4/cookbook.html)
+- [Mockito](https://site.mockito.org/)
+- [Difference Between Mocks and Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
+- [(Optional, good to know its existence though) Test Driven Development](https://technologyconversations.com/2013/12/24/test-driven-development-tdd-best-practices-using-java-examples-2/)
+
+## [Week 7: Spring MVC]()
+
+#### Activities
+
+- [Watch the following course Spring MVC course (1 hour)](https://www.youtube.com/watch?v=g2b-NbR48Jo&t=25s)
+- [Watch the following video Spring Data](https://www.youtube.com/watch?v=SPtBUh_of4s&list=PLOk4ziGG9MBdlyxIDw5wYvj6QZTQ22wvK&index=11)
+- [Reading: Spring basic annotations](https://www.baeldung.com/spring-mvc-annotations)
+- [Reading: Spring model attribute](https://www.baeldung.com/spring-mvc-and-the-modelattribute-annotation)
+- [Reading: Spring MVC Forms](https://www.baeldung.com/spring-mvc-form-tutorial)
+- [Reading (Optional): Using Thymeleaf with Spring MVC](https://www.thymeleaf.org/doc/tutorials/3.0/thymeleafspring.html)
+
+### Practice
+
+Image that you need to create a book store, and then create a page to show the list of books by following the next steps:
+
+- Create a new project by using [Spring initializer](https://start.spring.io/)
+- Add the following dependencies: Spring web, Thymeleaf, Spring data JPA, H2 database.
+- Create Book entity
+- Create a BookRepository
+- Create a BookController
+- Create a ListBooksView by using Thymeleaf
+
+
+## [Week 8: REST Application Design with Spring Boot]()
+
+- [What's HTTP?](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
+- [ What's REST](https://restfulapi.net/)
+- [How to design a REST API](https://restfulapi.net/rest-api-design-tutorial-with-example/)
+- [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
+- [Building Rest Services With Spring - Example 1](https://spring.io/guides/gs/rest-service/)
+- [Building Rest Services With Spring - Example 2](https://spring.io/guides/tutorials/rest/)
+- [REST API documentation with Swagger](http://swagger.io/getting-started/)
+- [Optional: Dockerize REST API](https://spring.io/guides/gs/spring-boot-docker/)
+
+## [Week 9: Final Thesis work]()
