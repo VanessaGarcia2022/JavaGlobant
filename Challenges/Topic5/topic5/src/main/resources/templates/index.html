@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th=http://www.thymeleaf.org>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <form th:action="@{/createUser}" th:object="${user}" method="POST">
+        <sapn th:if="${user.id}"><input type="text" th:field="${user.id}" readonly /></sapn>
+        <input type="text" placeholder="Nombre" th:field="${user.name}"/>
+        <input type="text" placeholder="Email" th:field="${user.email}"/>
+        <input type="submit" th:value="${user.id} ? 'Save User' : 'Submit' "/>
+    </form>
+    <br/>
+ <table>
+     <thead>
+     <tr>
+         <th>Id</th>
+         <th>Usuario</th>
+         <th>Email</th>
+         <th>Editar</th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr th:each="user : ${users}">
+         <td th:text="${user.id}"></td>
+         <td th:text="${user.name}"></td>
+         <td th:text="${user.email}"></td>
+         <td><a th:href="@{'/editUser/'+${user.id}}">Editar</a></td>
+     </tr>
+     </tbody>
+ </table>
+</body>
+</html>
